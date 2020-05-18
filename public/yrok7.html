@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Всеволод html | HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="../assets/img/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="zennav"><a href="test1.html" class="navig" title="Назад">←</a><a href="../index.html" class="navig">Главная</a><a href="yrok8.html" class="navig" title="Далее">→</a></div>
+    <main>
+        <h1>Создание сайта. Урок 7</h1>
+        <time>9 апреля</time>
+        <p>Вот мы и продолжаем серию уроков, надеюсь вы прошли зачёт. В этом уроке мы ещё немного посмотрим на html и перейдём к css.</p>
+        <img src="https://avatars.mds.yandex.net/get-zen_doc/1706517/pub_5e8ec229b4544f0d16bf662d_5e8ec66120905d1b5d507a86/scale_1200">
+        <p>Кроме того что мы пишем теги, мы можем писать и классы, например:</p>
+        <ol>
+            <li>&lt;p class="class1"&gt;</li>
+            <li>я тег с классом</li>
+            <li>&lt;/p&gt;</li>
+        </ol>
+        <p>В коде выше мы присвоили тегу параграф класс class1, заметьте что название класса должно быть на латинице и не начинаться с цифры, а главное что нет никаких символов. Иначе класс будет не работать!</p>
+        <p>В css класс мы пишем начиная с точки, ведь без точки можно только теги.</p>
+        <ol>
+            <li>.class1 {</li>
+            <li>color: red;</li>
+            <li>}</li>
+        </ol>
+        <p>Выше мы присвоили всем тегам с определённым классом красный цвет. Бывает что надо присвоить не всем одинаковым тегам, а только определённым например красный цвет, в этом случае нам нужны классы.</p>
+        <p>Кроме классов есть id для css настроек его используют реже, но всё же покажу пример:</p>
+        <p>HTML</p>
+        <ol>
+            <li>&lt;p id="paragraf0id&gt;</li>
+            <li>Параграф с id</li>
+            <li>&lt;/p&gt;</li>
+        </ol>
+        <p>CSS</p>
+        <ol>
+            <li>#paragraf1id {</li>
+            <li>color: green;</li>
+            <li>}</li>
+        </ol>
+        <p>Но id чаще используют для ссылок в одной странице, думаю все видели как по нажатию на ссылку, страница промывается в конец или начало. Это так называемый якорь, вот вам пример:</p>
+        <p>&lt;a href="#paragraf1id "&gt;Якорь ⚓&lt;/a&gt;</li>
+        <p>Вот мы и закончили урок, в следующем уроке мы доразберём html и пойдем к css. К 20 подписчикам я подготовил вам подарок, так что подписывайтесь, ставьте лайк, и ждите!</p>
+        <span class="likebtn-wrapper" data-theme="review" data-lang="ru" data-ef_voting="grow" data-white_label="true" data-identifier="item_1" data-dislike_enabled="false" data-icon_dislike_show="false" data-voting_frequency="5" data-counter_clickable="true" data-counter_frmt="km"></span>
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+        <div id="mc-container"></div>
+        <script type="text/javascript">
+        cackle_widget = window.cackle_widget || [];
+        cackle_widget.push({widget: 'Comment', id: 73630});
+        (function() {
+            var mc = document.createElement('script');
+            mc.type = 'text/javascript';
+            mc.async = true;
+            mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+        })();
+        </script>
+        <a id="mc-link" href="http://cackle.me">Комментарии для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+  </main>
+    <div style="height:100%"></div>
+    <div id="topNubex"><img src="https://newconsalt.com/img/topNubex.png" class="down"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#topNubex').fadeIn();
+                } else {
+                    $('#topNubex').fadeOut();
+                };
+            });
+            $('#topNubex').click(function() {
+                $('body,html').animate({scrollTop:0},700);
+            });
+        });
+    </script>
+</body>
+</html>
