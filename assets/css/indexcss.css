@@ -91,7 +91,7 @@ footer {
     position: fixed;
     right: 10px;
     bottom: 10px;
-    cursor: url(../img/cursor/link.cur), pointer;
+    cursor: url(../img/cursor/link.svg), pointer;
 }
 .down {
     width: 50px;
@@ -106,6 +106,7 @@ footer {
     background-color: rgba(221, 221, 221, 0.9);
     text-align: center;
     margin: 0;
+    cursor: url(../img/cursor/skl.svg), auto;
 }
 
 @media (max-width:1000px) {
