@@ -28,15 +28,15 @@ img {
     background-color: rgba(221, 221, 221, 0.9);
     text-align: center;
     margin: 0;
-    border: 1px black solid;
-    border-radius: 20%;
-    background-color: gray;
 }
 .navig {
     text-decoration: none;
     margin: 10px;
     font-size: 30px;
     color: black;
+    border: 1px black solid;
+    border-radius: 20%;
+    background-color: gray;
 }
 #topNubex {
     position: fixed;
