@@ -1,0 +1,57 @@
+/***СТИЛИ уроков***/
+html {
+    cursor: url(https://s4.aconvert.com/convert/p3r68-cdx67/aqszr-j12o8.svg), auto;
+    background-image: url(../img/bg-intro-desktop.png);
+    background-attachment: fixed;
+    font-size: large;
+}
+main {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border: black solid 1px;
+    padding: 2px;
+    background-color: rgba(221, 237, 250, 0.5);
+    margin-top: 0;
+}
+time {
+    color: gray;
+}
+img {
+    width: 100%;
+}
+.zennav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(221, 221, 221, 0.9);
+    text-align: center;
+    margin: 0;
+}
+.navig {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    color: black;
+}
+#topNubex {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+.down {
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:1000px) {
+    main {
+        width: 82%;
+        height: 100%;
+        margin: 0 auto;
+        border: black solid 1px;
+        padding: 2px;
+        background-color: rgba(221, 237, 250, 0.5);
+        margin-top: 0;
+    }
+}
