@@ -23,7 +23,7 @@ img {
 .zennav {
     position: fixed;
     right: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
     background-color: rgba(221, 221, 221, 0.9);
     text-align: center;
@@ -34,9 +34,6 @@ img {
     margin: 10px;
     font-size: 30px;
     color: black;
-    border: 1px black solid;
-    border-radius: 20%;
-    background-color: gray;
 }
 #topNubex {
     position: fixed;
