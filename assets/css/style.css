@@ -34,8 +34,6 @@ img {
     margin: 10px;
     font-size: 30px;
     color: black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 }
 #topNubex {
     position: fixed;
