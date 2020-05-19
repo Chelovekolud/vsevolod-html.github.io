@@ -12,7 +12,7 @@ main {
     border: black solid 1px;
     padding: 2px;
     background-color: rgba(221, 237, 250, 0.5);
-    margin-top: 0;
+    margin-top: 5%;
 }
 time {
     color: gray;
