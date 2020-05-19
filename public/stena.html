@@ -1,1 +1,60 @@
-
+  
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Стена | HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="../assets/img/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <style>
+    html {
+      background-color: url(../assets/img/bricks.jpg);
+    }
+    main {
+      margin-top: 5%;
+    }
+    p {
+      text-align: center;
+      font-family: 'Pangolin', cursive;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p>Всеволод html</p>
+    <p>Влад Зеленин</p>
+  </main>
+  <div id="disqus_thread"></div>
+	<script>
+	var disqus_config = function () {
+	this.page.url = PAGE_URL;
+	this.page.identifier = PAGE_IDENTIFIER;
+	};
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://https-vsevolodhtml-ru.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div style="height:100%"></div>
+    <div id="topNubex"><img src="https://newconsalt.com/img/topNubex.png" class="down"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() != 0) {
+                    $('#topNubex').fadeIn();
+                } else {
+                    $('#topNubex').fadeOut();
+                };
+            });
+            $('#topNubex').click(function() {
+                $('body,html').animate({scrollTop:0},700);
+            });
+        });
+    </script>
+</body>
+</html>
