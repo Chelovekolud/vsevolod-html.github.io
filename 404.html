@@ -8,7 +8,23 @@
   <link rel="stylesheet" href="https://vsevolodhtml.ru/assets/css/style.css">
 </head>
 <body>
-    <main><img src="https://vsevolodhtml.ru/assets/img/404.jpg"></main>
+    <main>
+      <img src="https://vsevolodhtml.ru/assets/img/404.jpg">
+      <div id="disqus_thread"></div>
+      <script>
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;
+      this.page.identifier = PAGE_IDENTIFIER;
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-vsevolodhtml-ru.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </main>
     <style>
         html {
             background-color: black;
